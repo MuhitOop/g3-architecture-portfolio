@@ -11,8 +11,7 @@ body {
 }
 
 .navbar,
-.banner
- {
+.banner {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -22,10 +21,10 @@ body {
   display: flex;
 }
 
-.flex-center{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.flex-center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .dark-1 {
@@ -36,28 +35,34 @@ body {
   color: #424242;
 }
 
-
-.dark-3{
-    color: #727272;
+.dark-3 {
+  color: #727272;
 }
 
-.btn-primary{
-    padding: 20px 25px;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: rgb(255, 144, 14);
-    font-size: 1.25rem;
-    font-weight: 600px;
-    color: #FFFFFF;
+.btn-primary {
+  padding: 20px 25px;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 144, 14);
+  font-size: 1.25rem;
+  font-weight: 600px;
+  color: #ffffff;
 }
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
-main, footer{
-    max-width: 1440px;
-    margin: 85px auto;
+main,
+footer {
+  max-width: 1440px;
+  margin: 85px auto;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
 }
 
 /* main > section{
@@ -67,8 +72,8 @@ main, footer{
 
 /* nav bar styles start */
 
-header{
-    background-color:rgba(255, 144, 14, 0.1);
+header {
+  background-color: rgba(255, 144, 14, 0.1);
 }
 .navbar {
   display: flex;
@@ -105,122 +110,114 @@ header{
 /* nav bar styles end */
 
 /* banner styles start */
-.banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 7.1875rem;
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 7.1875rem;
 }
 
-.banner-content{
-    max-width: 53.875rem;
-    gap: 2rem;
-    margin-bottom: 50px;
+.banner-content {
+  max-width: 53.875rem;
+  gap: 2rem;
+  margin-bottom: 50px;
 }
 
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
 }
 
-.banner-img{
-    width: 100%;
+.banner-img {
+  width: 100%;
 }
 
 .banner-img img {
-    width: 100%;
-    margin-bottom: 45px;
-    
+  width: 100%;
+  margin-bottom: 45px;
 }
 
-.banner-description{
-    font-size: 1rem;
-    font-weight: 400;
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
 }
-
 
 /* banner styles end */
 
-
 /* team section style start */
-.teams{
-    display: flex;
-    align-items: center;
-    gap: 72px;
+.teams {
+  display: flex;
+  align-items: center;
+  gap: 72px;
 }
 
-.team-image-gellary{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+.team-image-gellary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
-.team-title #part-1{
-    font-size: 2.8rem;
-    font-weight: 500;
-    color: #727272;
+.team-title #part-1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #727272;
 }
 
-.team-title #part-2{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
+.team-title #part-2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
 }
 
-.team-title #part-3{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #FF900E;
+.team-title #part-3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ff900e;
 }
 
-.team-description{
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: left;
-    margin: 1.5rem 0;
+.team-description {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 1.5rem 0;
 }
 
-.team-info-container{
-    max-width: 535px;
+.team-info-container {
+  max-width: 535px;
 }
 
 /* team title style end */
 
-
-
 /* responsive media query */
-
 
 /* small size devices */
 
 @media screen and (max-width: 576px) {
-    .navbar, 
-    .nav-links, 
-    .teams{
-        flex-direction: column;
-    }
+  .navbar,
+  .nav-links,
+  .teams {
+    flex-direction: column;
+  }
 
-    .team-image-gellary{
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .team-image-gellary {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .team-info-container{
-        margin-left: 20px;
-    }
+  .team-info-container {
+    margin-left: 20px;
+  }
 }
-
 
 /* medium size devices */
 
-@media screen and (min-width: 576px) and (max-width: 922px)  {
-    .teams{
-        flex-direction: column;
-    }
+@media screen and (min-width: 576px) and (max-width: 922px) {
+  .teams {
+    flex-direction: column;
+  }
 
-    .team-info-container{
-        margin-left: 50px;
-    }
+  .team-info-container {
+    margin-left: 50px;
+  }
 }
